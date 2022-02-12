@@ -595,7 +595,7 @@
       "settings": {
         "name": "Tag attribute",
         "fontStyle": "italic",
-        "foreground": "#78dce8"
+        "foreground": "#d19a66"
       }
     },
     {
@@ -626,7 +626,7 @@
     },
     {
       "scope": ["entity.name.function", "support.function"],
-      "settings": { "name": "Function names / calls", "foreground": "#61afef" }
+      "settings": { "name": "Function names / calls", "foreground": "#a9dc76" }
     },
     {
       "scope": "entity.other.git-status.hex",
@@ -1159,7 +1159,7 @@
     },
     {
       "scope": "string",
-      "settings": { "name": "String", "foreground": "#ffd866" }
+      "settings": { "name": "String", "foreground": "#c5c5c5" }
     },
     {
       "scope": "string.unquoted.label",
@@ -1246,7 +1246,7 @@
       "settings": {
         "name": "Library type",
         "fontStyle": "italic",
-        "foreground": "#78dce8"
+        "foreground": "#5ec3ce"
       }
     },
     {
