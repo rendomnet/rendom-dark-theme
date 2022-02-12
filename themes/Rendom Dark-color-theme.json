@@ -519,7 +519,7 @@
     },
     {
       "scope": ["entity.name.function", "entity.name.function.templated"],
-      "settings": { "name": "Functions", "foreground": "#a9dc76" }
+      "settings": { "name": "Functions", "foreground": "#61afef" }
     },
     {
       "scope": "entity.name.function.member.static",
@@ -543,7 +543,7 @@
     },
     {
       "scope": "entity.name",
-      "settings": { "name": "Entity name", "foreground": "#a9dc76" }
+      "settings": { "name": "Entity name", "foreground": "#61afef" }
     },
     {
       "scope": "entity.name.class",
@@ -567,7 +567,7 @@
     },
     {
       "scope": "entity.name.function",
-      "settings": { "name": "Function name", "foreground": "#a9dc76" }
+      "settings": { "name": "Function name", "foreground": "#61afef" }
     },
     {
       "scope": [
@@ -626,7 +626,7 @@
     },
     {
       "scope": ["entity.name.function", "support.function"],
-      "settings": { "name": "Function names / calls", "foreground": "#a9dc76" }
+      "settings": { "name": "Function names / calls", "foreground": "#61afef" }
     },
     {
       "scope": "entity.other.git-status.hex",
@@ -1279,7 +1279,7 @@
     },
     {
       "scope": ["variable", "variable.other"],
-      "settings": { "name": "Variable", "foreground": "#fcfcfa" }
+      "settings": { "name": "Variable", "foreground": "#e5c07b" }
     },
     {
       "scope": ["variable.parameter", "parameters variable.function"],
@@ -1321,13 +1321,13 @@
     },
     {
       "scope": "variable.other.readwrite",
-      "settings": { "name": "read/write variables", "foreground": "#fcfcfa" }
+      "settings": { "name": "read/write variables", "foreground": "#e5c07b" }
     },
     {
       "scope": "variable.other.member",
       "settings": {
         "name": "Fields, properties, members and attributes of a class or other data structure should use:",
-        "foreground": "#fcfcfa"
+        "foreground": "#e5c07b"
       }
     },
     {
@@ -1340,13 +1340,13 @@
         "variable.other.property.static",
         "variable.other.event"
       ],
-      "settings": { "name": "Variable property", "foreground": "#fcfcfa" }
+      "settings": { "name": "Variable property", "foreground": "#e06c75" }
     },
     {
       "scope": "variable.function",
       "settings": {
         "name": "Function and method names should be scoped using the following, but only when they are being invoked. When defined, they should use entity.name.function.",
-        "foreground": "#a9dc76"
+        "foreground": "#61afef"
       }
     },
     {
