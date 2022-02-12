@@ -1,0 +1,21 @@
+{
+  "name": "rendom-dark",
+  "displayName": "Rendom Dark theme",
+  "description": "Minimalistic and stylish theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.64.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rendom Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Rendom Dark-color-theme.json"
+      }
+    ]
+  }
+}
