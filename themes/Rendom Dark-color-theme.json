@@ -437,7 +437,7 @@
     },
     {
       "scope": "constant.other",
-      "settings": { "name": "Constant", "foreground": "#fcfcfa" }
+      "settings": { "name": "Constant", "foreground": "#ffff00" }
     },
     {
       "scope": "constant.other.caps",
@@ -574,14 +574,22 @@
         "entity.name.tag",
         "entity.name.tag.js.jsx support.class.component.js.jsx"
       ],
-      "settings": { "name": "Tag name", "foreground": "#f891a8" }
+      "settings": {
+        "name": "Tag name",
+
+        "foreground": "#a2cdf0"
+      }
     },
     {
       "scope": [
         "entity.name.tag support.class.component",
         "source.vue support.class.component"
       ],
-      "settings": { "name": "Tag name", "foreground": "#fdce87" }
+      "settings": {
+        "name": "Tag name",
+        "fontStyle": "",
+        "foreground": "#fdce87"
+      }
     },
     {
       "scope": "entity.name.function.operator",
@@ -600,7 +608,7 @@
       "settings": {
         "name": "Tag attribute",
         "fontStyle": "italic",
-        "foreground": "#d19a66"
+        "foreground": "#bda58e"
       }
     },
     {
@@ -631,7 +639,10 @@
     },
     {
       "scope": ["entity.name.function", "support.function"],
-      "settings": { "name": "Function names / calls", "foreground": "#a9dc76" }
+      "settings": {
+        "name": "Function names / calls",
+        "foreground": "#61b8ff"
+      }
     },
     {
       "scope": "entity.other.git-status.hex",
@@ -673,7 +684,7 @@
       "scope": "keyword.control",
       "settings": {
         "name": "Control keywords examples include if, try, end and while. Some syntaxes prefer to mark if and else with the conditional variant. The import variant is often used in appropriate situations.",
-        "foreground": "#ff6188"
+        "foreground": "#c678dd"
       }
     },
     {
@@ -802,6 +813,7 @@
         "meta.brace.round",
         "meta.brace.square",
         "meta.brace.curly",
+        "meta.tag.block.any.html",
         "meta.delimiter.comma.js",
         "meta.function-call.without-arguments.js",
         "meta.function-call.method.without-arguments.js"
@@ -1094,7 +1106,7 @@
       "settings": {
         "name": "Types and definition / declaration keywords should use the following scope. Examples include int, bool, char, func, function, class and def. Depending on the language and semantics, const may be this or storage.modifier.",
         "fontStyle": "italic",
-        "foreground": "#78dce8"
+        "foreground": "#C678DD"
       }
     },
     {
@@ -1164,7 +1176,7 @@
     },
     {
       "scope": "string",
-      "settings": { "name": "String", "foreground": "#c5c5c5" }
+      "settings": { "name": "String", "foreground": "#e7e7e7" }
     },
     {
       "scope": "string.unquoted.label",
@@ -1263,12 +1275,16 @@
       "settings": {
         "name": "Library type property, JSON keys",
         "fontStyle": "normal",
-        "foreground": "#fcfcfa"
+        "foreground": "#B4A5A0"
       }
     },
     {
       "scope": "support.class",
-      "settings": { "name": "Library class", "foreground": "#78dce8" }
+      "settings": {
+        "name": "Library class",
+        "fontStyle": "italic",
+        "foreground": "#78dce8"
+      }
     },
     {
       "scope": "support.constant.core.rust",
@@ -1287,6 +1303,13 @@
       "settings": { "name": "Variable", "foreground": "#e5c07b" }
     },
     {
+      "scope": "string.unquoted.js",
+      "settings": {
+        "name": "Object property js",
+        "foreground": "#b4a5a0"
+      }
+    },
+    {
       "scope": ["variable.parameter", "parameters variable.function"],
       "settings": {
         "name": "Function arguments",
@@ -1303,7 +1326,7 @@
       "settings": {
         "name": "Reserved variable names that are specified by the language, such as this, self, super, arguments. Also in function arguments (e.g. like in Python)",
         "fontStyle": "italic",
-        "foreground": "#c1c0c0"
+        "foreground": "#e5c07b"
       }
     },
     {
@@ -1345,7 +1368,7 @@
         "variable.other.property.static",
         "variable.other.event"
       ],
-      "settings": { "name": "Variable property", "foreground": "#e06c75" }
+      "settings": { "name": "Variable property", "foreground": "#acd8c8" }
     },
     {
       "scope": "variable.function",
