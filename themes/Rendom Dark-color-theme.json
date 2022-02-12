@@ -6,7 +6,7 @@
   "colorSpaceName": "sRGB",
   "colors": {
     "focusBorder": "#727072",
-    "foreground": "#fcfcfa",
+    "foreground": "#fcfafa",
     "widget.shadow": "#19181a",
     "selection.background": "#c1c0c026",
     "descriptionForeground": "#939293",
@@ -16,7 +16,7 @@
     "textCodeBlock.background": "#403e41",
     "textLink.activeForeground": "#fcfcfa",
     "textLink.foreground": "#ffd866",
-    "textPreformat.foreground": "#fcfcfa",
+    "textPreformat.foreground": "#fcfafa",
     "textSeparator.foreground": "#727072",
     "button.background": "#403e41",
     "button.foreground": "#939293",
