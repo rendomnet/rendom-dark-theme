@@ -385,7 +385,8 @@
         "comment string",
         "comment punctuation.definition",
         "comment punctuation",
-        "comment text"
+        "comment text",
+        "string.comment.buffered.block.pug"
       ],
       "settings": {
         "name": "Comments and overrides inside comments",
@@ -614,7 +615,7 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "name": "Tag attribute",
-
+        "fontStyle": "italic",
         "foreground": "#d39459"
       }
     },
