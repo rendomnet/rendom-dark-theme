@@ -235,7 +235,7 @@
     "editorOverviewRuler.errorForeground": "#ff6188",
     "editorOverviewRuler.warningForeground": "#fc9867",
     "editorOverviewRuler.infoForeground": "#78dce8",
-    "panel.background": "#1d1f20",
+    "panel.background": "#19181a",
     "panel.border": "#252728",
     "panel.dropBackground": "#221f22bf",
     "panelTitle.activeBorder": "#ffd866",
@@ -277,7 +277,7 @@
     "extensionButton.prominentHoverBackground": "#5b595c",
     "pickerGroup.border": "#252728",
     "pickerGroup.foreground": "#5b595c",
-    "terminal.background": "#1d1f20",
+    "terminal.background": "#19181a",
     "terminal.foreground": "#fcfcfa",
     "terminal.ansiBlack": "#403e41",
     "terminal.ansiBlue": "#fc9867",
@@ -444,6 +444,14 @@
       "settings": { "name": "Constant", "foreground": "#ab9df2" }
     },
     {
+      "scope": "constant.other.object.key",
+      "settings": {
+        "name": "Constant",
+        "fontStyle": "italic",
+        "foreground": "#D39459"
+      }
+    },
+    {
       "scope": "constant.other.placeholder.c",
       "settings": { "name": "Placeholders in C", "foreground": "#fc9867" }
     },
@@ -489,11 +497,11 @@
     },
     {
       "scope": "constant.numeric",
-      "settings": { "name": "Number", "foreground": "#ab9df2" }
+      "settings": { "name": "Number", "foreground": "#e2cfcd" }
     },
     {
       "scope": "constant.language",
-      "settings": { "name": "Constant", "foreground": "#ab9df2" }
+      "settings": { "name": "Constant", "foreground": "#C678DD" }
     },
     {
       "scope": "constant.character.escape",
@@ -518,8 +526,12 @@
       "settings": { "name": "Sections", "foreground": "#ffd866" }
     },
     {
-      "scope": ["entity.name.function", "entity.name.function.templated"],
-      "settings": { "name": "Functions", "foreground": "#61afef" }
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "entity.name.function.templated"
+      ],
+      "settings": { "name": "Functions", "foreground": "#60c98c" }
     },
     {
       "scope": "entity.name.function.member.static",
@@ -566,17 +578,12 @@
       }
     },
     {
-      "scope": "entity.name.function",
-      "settings": { "name": "Function name", "foreground": "#61afef" }
-    },
-    {
       "scope": [
         "entity.name.tag",
         "entity.name.tag.js.jsx support.class.component.js.jsx"
       ],
       "settings": {
         "name": "Tag name",
-
         "foreground": "#a2cdf0"
       }
     },
@@ -608,7 +615,7 @@
       "settings": {
         "name": "Tag attribute",
         "fontStyle": "italic",
-        "foreground": "#bda58e"
+        "foreground": "#d39459"
       }
     },
     {
@@ -619,7 +626,7 @@
         "entity.other.attribute-name.css",
         "entity.other.animation-name.css"
       ],
-      "settings": { "name": "CSS class", "foreground": "#a9dc76" }
+      "settings": { "name": "CSS class", "foreground": "#E06C75" }
     },
     {
       "scope": "entity.other.attribute-name.id.css",
@@ -635,13 +642,6 @@
         "name": "CSS pseudo class",
         "fontStyle": "italic",
         "foreground": "#78dce8"
-      }
-    },
-    {
-      "scope": ["entity.name.function", "support.function"],
-      "settings": {
-        "name": "Function names / calls",
-        "foreground": "#61b8ff"
       }
     },
     {
@@ -684,14 +684,15 @@
       "scope": "keyword.control",
       "settings": {
         "name": "Control keywords examples include if, try, end and while. Some syntaxes prefer to mark if and else with the conditional variant. The import variant is often used in appropriate situations.",
-        "foreground": "#c678dd"
+        "fontStyle": "italic",
+        "foreground": "#d6608e"
       }
     },
     {
       "scope": "keyword.control.directive",
       "settings": {
         "name": "keyword control directive",
-        "foreground": "#ff6188"
+        "foreground": "#E06C75"
       }
     },
     {
@@ -700,7 +701,8 @@
         "keyword.operator.member",
         "keyword.operator.new"
       ],
-      "settings": { "name": "Operator", "foreground": "#ff6188" }
+
+      "settings": { "name": "Operator", "foreground": "#aa523c" }
     },
     {
       "scope": "keyword.other.substitution",
@@ -830,6 +832,14 @@
     {
       "scope": "meta.function-call.python meta.function-call.arguments.python",
       "settings": { "name": "Function arguments (vs)", "foreground": "#fcfcfa" }
+    },
+    {
+      "scope": "meta.function.method",
+      "settings": { "name": "Function methods", "foreground": "#ffff00" }
+    },
+    {
+      "scope": "meta.function.parameters",
+      "settings": { "name": "Function methods", "foreground": "#ff1e00" }
     },
     {
       "scope": "meta.instance.constructor",
@@ -1106,7 +1116,7 @@
       "settings": {
         "name": "Types and definition / declaration keywords should use the following scope. Examples include int, bool, char, func, function, class and def. Depending on the language and semantics, const may be this or storage.modifier.",
         "fontStyle": "italic",
-        "foreground": "#C678DD"
+        "foreground": "#D6608E"
       }
     },
     {
@@ -1175,8 +1185,8 @@
       }
     },
     {
-      "scope": "string",
-      "settings": { "name": "String", "foreground": "#e7e7e7" }
+      "scope": "string.quoted",
+      "settings": { "name": "String", "foreground": "#b4b4b4" }
     },
     {
       "scope": "string.unquoted.label",
@@ -1237,7 +1247,7 @@
     },
     {
       "scope": "support.constant",
-      "settings": { "name": "Library constant", "foreground": "#78dce8" }
+      "settings": { "name": "Library constant", "foreground": "#C678DD" }
     },
     {
       "scope": "support.constant.handlebars",
@@ -1246,10 +1256,6 @@
     {
       "scope": "support.type.vendor-prefix.css",
       "settings": { "name": "vendor prefix", "foreground": "#c1c0c0" }
-    },
-    {
-      "scope": "support.function",
-      "settings": { "name": "Function name", "foreground": "#a9dc76" }
     },
     {
       "scope": "support.function.delimiter.elm",
@@ -1283,7 +1289,7 @@
       "settings": {
         "name": "Library class",
         "fontStyle": "italic",
-        "foreground": "#78dce8"
+        "foreground": "#7dbdaf"
       }
     },
     {
@@ -1300,13 +1306,22 @@
     },
     {
       "scope": ["variable", "variable.other"],
-      "settings": { "name": "Variable", "foreground": "#e5c07b" }
+      "settings": {
+        "name": "Variable",
+        // "fontStyle": "underline",
+        "foreground": "#f3db8e"
+      }
     },
     {
-      "scope": "string.unquoted.js",
+      "scope": [
+        "variable.other.property",
+        "variable.other.property.static",
+        "variable.other.event"
+      ],
       "settings": {
-        "name": "Object property js",
-        "foreground": "#b4a5a0"
+        "name": "Variable property",
+        "fontStyle": "",
+        "foreground": "#f3db8e"
       }
     },
     {
@@ -1326,7 +1341,15 @@
       "settings": {
         "name": "Reserved variable names that are specified by the language, such as this, self, super, arguments. Also in function arguments (e.g. like in Python)",
         "fontStyle": "italic",
-        "foreground": "#e5c07b"
+        "foreground": "#cac4b4"
+      }
+    },
+    {
+      "scope": ["variable.language.this"],
+      "settings": {
+        "name": "Reserved variable names that are specified by the language, such as this, self, super, arguments. Also in function arguments (e.g. like in Python)",
+        "fontStyle": "italic",
+        "foreground": "#9e9997"
       }
     },
     {
@@ -1348,10 +1371,6 @@
       }
     },
     {
-      "scope": "variable.other.readwrite",
-      "settings": { "name": "read/write variables", "foreground": "#e5c07b" }
-    },
-    {
       "scope": "variable.other.member",
       "settings": {
         "name": "Fields, properties, members and attributes of a class or other data structure should use:",
@@ -1362,14 +1381,7 @@
       "scope": "variable.other.enummember",
       "settings": { "name": "Enum member", "foreground": "#ab9df2" }
     },
-    {
-      "scope": [
-        "variable.other.property",
-        "variable.other.property.static",
-        "variable.other.event"
-      ],
-      "settings": { "name": "Variable property", "foreground": "#acd8c8" }
-    },
+
     {
       "scope": "variable.function",
       "settings": {

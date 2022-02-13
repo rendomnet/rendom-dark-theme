@@ -9,6 +9,11 @@
   "categories": [
     "Themes"
   ],
+  "publisher": "rendom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rendomnet/rendom-dark-theme.git"
+  },
   "contributes": {
     "themes": [
       {
