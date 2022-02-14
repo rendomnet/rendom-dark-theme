@@ -585,7 +585,7 @@
       ],
       "settings": {
         "name": "Tag name",
-        "foreground": "#a2cdf0"
+        "foreground": "#e67c8e"
       }
     },
     {
@@ -633,7 +633,6 @@
       "scope": ["support.constant.property-value.css"],
       "settings": {
         "name": "CSS class",
-        "fontStyle": "italic",
         "foreground": "#D6608E"
       }
     },
@@ -650,7 +649,6 @@
       ],
       "settings": {
         "name": "CSS pseudo class",
-        "fontStyle": "italic",
         "foreground": "#78dce8"
       }
     },
@@ -686,15 +684,20 @@
       "scope": "invalid",
       "settings": { "name": "Invalid", "fontStyle": "italic" }
     },
+
+    {
+      "scope": "attribute_value",
+      "settings": { "name": "attribute_value", "foreground": "#939293" }
+    },
     {
       "scope": "keyword",
       "settings": { "name": "Keyword", "foreground": "#ff6188" }
     },
+
     {
       "scope": "keyword.control",
       "settings": {
         "name": "Control keywords examples include if, try, end and while. Some syntaxes prefer to mark if and else with the conditional variant. The import variant is often used in appropriate situations.",
-        "fontStyle": "italic",
         "foreground": "#d6608e"
       }
     },
@@ -844,9 +847,10 @@
       "settings": { "name": "Function arguments (vs)", "foreground": "#fcfcfa" }
     },
     {
-      "scope": "meta.function.method",
-      "settings": { "name": "Function methods", "foreground": "#ffff00" }
+      "scope": ["meta.function.method", "meta.method-call.with-arguments.js"],
+      "settings": { "name": "Function methods", "foreground": "#B4B4B4" }
     },
+
     {
       "scope": "meta.function.parameters",
       "settings": { "name": "Function methods", "foreground": "#ff1e00" }
@@ -935,7 +939,7 @@
         "punctuation.definition.group.end.css",
         "punctuation.definition.string.end.html source.css"
       ],
-      "settings": { "name": "Punctuation tags", "foreground": "#939293" }
+      "settings": { "name": "Punctuation tags", "foreground": "#93929367" }
     },
     {
       "scope": "punctuation.definition.group",
