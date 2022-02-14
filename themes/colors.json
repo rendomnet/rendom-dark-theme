@@ -4,6 +4,7 @@
   "editor.background": "#252728",
   "terminal.background": "#212324",
   "dimmedText": "#B4B4B4",
+  "property": "D39459",
   "keyword.control": "#D6608E",
   "variable.forground": "#60C98C",
   "css.id": "#FDCE87"
