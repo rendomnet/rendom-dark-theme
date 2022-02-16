@@ -7,5 +7,7 @@
   "property": "D39459",
   "keyword.control": "#D6608E",
   "variable.forground": "#60C98C",
-  "css.id": "#FDCE87"
+  "css.id": "#FDCE87",
+
+  "input.background": "#141414"
 }
