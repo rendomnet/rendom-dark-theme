@@ -2,7 +2,7 @@
   "name": "rendom-dark",
   "displayName": "Rendom Dark theme",
   "description": "Minimalistic and stylish theme",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "engines": {
     "vscode": "^1.64.0"
   },
