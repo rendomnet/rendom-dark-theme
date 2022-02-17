@@ -244,7 +244,7 @@
     "statusBar.background": "#191919",
     "statusBar.foreground": "#727072",
     "statusBar.border": "#191919",
-    "statusBar.debuggingBackground": "#727072",
+    "statusBar.debuggingBackground": "#252525",
     "statusBar.debuggingForeground": "#fcfcfa",
     "statusBar.debuggingBorder": "#191919",
     "statusBar.noFolderBackground": "#191919",
@@ -399,7 +399,7 @@
     },
     {
       "scope": "comment storage.type",
-      "settings": { "name": "JSDoc storage type", "foreground": "#727072" }
+      "settings": { "name": "JSDoc storage type", "foreground": "#5ec3ce" }
     },
     {
       "scope": "comment entity.name.type",
@@ -705,14 +705,16 @@
       "scope": "keyword.control",
       "settings": {
         "name": "Control keywords examples include if, try, end and while. Some syntaxes prefer to mark if and else with the conditional variant. The import variant is often used in appropriate situations.",
-        "foreground": "#d6608e"
+        "fontStyle": "italic",
+        "foreground": "#a358ad"
       }
     },
     {
-      "scope": "keyword.control.directive",
+      "scope": "storage.type",
       "settings": {
-        "name": "keyword control directive",
-        "foreground": "#E06C75"
+        "name": "Types and definition / declaration keywords should use the following scope. Examples include int, bool, char, func, function, class and def. Depending on the language and semantics, const may be this or storage.modifier.",
+        "fontStyle": "italic",
+        "foreground": "#a358ad"
       }
     },
     {
@@ -722,8 +724,24 @@
         "keyword.operator.new"
       ],
 
-      "settings": { "name": "Operator", "foreground": "#D6608E" }
+      "settings": { "name": "Operator", "foreground": "#a358ad" }
     },
+    {
+      "scope": "storage.type.function.arrow",
+      "settings": {
+        "name": "Fat arrow function",
+        "fontStyle": "normal",
+        "foreground": "#a358ad"
+      }
+    },
+    {
+      "scope": "keyword.control.directive",
+      "settings": {
+        "name": "keyword control directive",
+        "foreground": "#E06C75"
+      }
+    },
+
     {
       "scope": "keyword.other.substitution",
       "settings": { "name": "Substitution string", "foreground": "#939293" }
@@ -1072,7 +1090,7 @@
     },
     {
       "scope": "source",
-      "settings": { "name": "source", "foreground": "#fcfcfa" }
+      "settings": { "name": "source", "foreground": "#DBDBDB" }
     },
     {
       "scope": ["source.scss", "source.sass"],
@@ -1134,27 +1152,11 @@
       "settings": { "name": "Storage", "foreground": "#ff6188" }
     },
     {
-      "scope": "storage.type",
-      "settings": {
-        "name": "Types and definition / declaration keywords should use the following scope. Examples include int, bool, char, func, function, class and def. Depending on the language and semantics, const may be this or storage.modifier.",
-        "fontStyle": "italic",
-        "foreground": "#D6608E"
-      }
-    },
-    {
       "scope": "storage.type.extends",
       "settings": {
         "name": "Extends",
         "fontStyle": "normal",
         "foreground": "#ff6188"
-      }
-    },
-    {
-      "scope": "storage.type.function.arrow",
-      "settings": {
-        "name": "Fat arrow function",
-        "fontStyle": "normal",
-        "foreground": "#D6608E"
       }
     },
     {
@@ -1208,7 +1210,7 @@
     },
     {
       "scope": "string.quoted",
-      "settings": { "name": "String", "foreground": "#dbdbdb" }
+      "settings": { "name": "String", "foreground": "#95c07c" }
     },
     {
       "scope": "string.unquoted.label",
@@ -1264,6 +1266,26 @@
       }
     },
     {
+      "scope": ["variable", "variable.other"],
+      "settings": {
+        "name": "Variable",
+        "foreground": "#cc6363"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.property",
+        "variable.other.property.static",
+        "variable.other.event"
+      ],
+      "settings": {
+        "name": "Variable property",
+        "fontStyle": "",
+        "foreground": "#ad9f9f"
+      }
+    },
+
+    {
       "scope": "string.other.git-status.remote",
       "settings": { "name": "git status remote", "foreground": "#ff6188" }
     },
@@ -1291,7 +1313,7 @@
       "settings": {
         "name": "Library type",
         "fontStyle": "italic",
-        "foreground": "#5ec3ce"
+        "foreground": "#50d3a7"
       }
     },
     {
@@ -1325,25 +1347,6 @@
     {
       "scope": "text.find-in-files",
       "settings": { "name": "Search result", "foreground": "#fcfcfa" }
-    },
-    {
-      "scope": ["variable", "variable.other"],
-      "settings": {
-        "name": "Variable",
-        "foreground": "#60C98C"
-      }
-    },
-    {
-      "scope": [
-        "variable.other.property",
-        "variable.other.property.static",
-        "variable.other.event"
-      ],
-      "settings": {
-        "name": "Variable property",
-        "fontStyle": "",
-        "foreground": "#60c98cb9"
-      }
     },
     {
       "scope": ["variable.parameter", "parameters variable.function"],
